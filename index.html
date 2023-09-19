@@ -1,0 +1,42 @@
+<!DOCTYPEhtml> 
+<html>
+<head>
+<title> alok tiwari </title> 
+<style>
+*{color:rgb(23, 231, 16);background-color:rgb(16, 17, 17);}
+ol,li,{background-color:orange}
+h1{background-color:rgb(239, 252, 240)}
+li{color:rgb(202, 213, 202)}
+</style>
+<script type="text/javascript">
+function display()
+{
+var a,ans;
+a=parseInt(form1.t1.value);
+ans=1;
+for(i=2;i<a;i++)
+{
+if(a%i==0)
+{
+ans=0;
+break;
+}
+}
+if(ans==1)
+alert("number is prime");
+else
+alert("number is not prime")
+}
+</script>
+</head>
+<body> 
+<h1>WELCOME TO MY FIRST WEB PAGE</h1><br> <br>
+<h1> 
+    PRIME NUMBER :- a whole number greater than 1 that cannot be exactly divided by any whole number other than itself and 1 (e.g. 2, 3, 5, 7, 11).
+</h1> 
+<h2 align="center" style="color: rgb(234, 234, 243);">program to check number is prime or not</h2>
+<form name="form1" style="text-align:center">
+ENTER YOUR NUMBER(greater than one):-<input type="text" name="t1"><br><br><hr>
+<input type="button" value="check prime number" onClick="display()"><br><br><br><hr>
+</body>
+</html> 
